@@ -13,7 +13,7 @@ var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Eternal Gaming Clone Wars";
+var l_serverName = "Eternal Gaming HaloRP";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -86,7 +86,7 @@ var l_bgDarkening = 50;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
-var l_music = false;
+var l_music = true;
 
 /*Display actual song's name?*/
 var l_musicDisplay = true;
