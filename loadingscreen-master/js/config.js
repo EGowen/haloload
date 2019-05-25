@@ -60,7 +60,6 @@ var l_bgImages = [
         "backgrounds/images/server 8.jpg",
         "backgrounds/images/server 9.jpg",
         "backgrounds/images/server 10.jpg",
-        "backgrounds/images/server.png",
 	
 ];
 
@@ -111,7 +110,7 @@ var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 15;
+var l_musicVolume = 12;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
