@@ -1,4 +1,4 @@
-/*    _           _    _                     _ 
+./*    _           _    _                     _ 
      | |         | |  | |                   | |
   ___| | ___  ___| | _| |     ___   __ _  __| |
  / __| |/ _ \/ _ \ |/ / |    / _ \ / _` |/ _` |
@@ -13,7 +13,7 @@ var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Ulkrah Server";
+var l_serverName = "Burger nips TTT";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -50,7 +50,12 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/rack.jpg",
+	"backgrounds/images/eric.jpg",
+	"backgrounds/images/martin.jpg",
+	"backgrounds/images/tigerking.jpg",
+	"backgrounds/images/2b.jpg",
+	"backgrounds/images/dead.png",
+	"backgrounds/images/honor.jpg",
 	
 	
 ];
@@ -85,14 +90,11 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "Hy8kmNEo1i8", name: "Scatman John - Scatman"},
-	{youtube: "zA52uNzx7Y4", name: "Eiffel 65 - Blue"},
-	{youtube: "Gs069dndIYk", name: "Earth, Wind & Fire - September"},
-	{youtube: "vTIIMJ9tUc8", name: "Daler Mehndi - Tunak Tunak Tun"},
-	{youtube: "GzVvDGnWQXI", name: "Yung Gravy - 1 thot 2 thot red thot blue thot"},
-	{youtube: "uuBETyA_yxc", name: "U got that"},
+	{youtube: "WB6wYVCEY3w", name: "I Saw a Tiger - Joe Exotic"},
+	{youtube: "NkQrKxTFARM", name: "Phineas and Ferb theme"},
+	{youtube: "lYbGEfoOUbs", name: "Goofy Goober Rock"},
+	{youtube: "h4XzaEs", name: "Shrek 2 - I need some sleep"},
 	{youtube: "7zkX6kfnWbk", name: "Arthur theme ting"},
-	{youtube: "iWa-6g-TbgI", name: "Eddie Murphy - Party all the time"},
 	{youtube: "CQclh6JKIMU", name: "ULKRAH THEME"},
 		
 ];
@@ -109,11 +111,9 @@ var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Ulkrah is the ultimate alpha male",
-"We have a large number of addons! Please be patient and enjoy the music!",
-"Ulkrah's main Waifu's are ahri and mercy!",
-"ulkrah no type good",
 "would clap joana's cheeks anyday ngl",
+"FREE JOE EXOTIC",
+"Heroes and League are shit",
 ];
 
 /*Random message order?*/
