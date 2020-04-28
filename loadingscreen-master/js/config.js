@@ -1,4 +1,4 @@
-./*    _           _    _                     _ 
+/*    _           _    _                     _ 
      | |         | |  | |                   | |
   ___| | ___  ___| | _| |     ___   __ _  __| |
  / __| |/ _ \/ _ \ |/ / |    / _ \ / _` |/ _` |
@@ -9,11 +9,11 @@
 
 /*URL for the server logo
 Leave it blank to use text instead*/
-var l_serverImage = "";
+var l_serverImage = "images/logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Burger nips TTT";
+var l_serverName = "sleekLoad 2";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -50,14 +50,9 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/eric.jpg",
-	"backgrounds/images/martin.jpg",
-	"backgrounds/images/tigerking.jpg",
-	"backgrounds/images/2b.jpg",
-	"backgrounds/images/dead.png",
-	"backgrounds/images/honor.jpg",
-	
-	
+	"backgrounds/images/touhou01.jpg",
+	"backgrounds/images/touhou02.jpg",
+	"backgrounds/images/touhou03.jpg"
 ];
 
 /*Random background images order?*/
@@ -90,13 +85,10 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "WB6wYVCEY3w", name: "I Saw a Tiger - Joe Exotic"},
-	{youtube: "NkQrKxTFARM", name: "Phineas and Ferb theme"},
-	{youtube: "lYbGEfoOUbs", name: "Goofy Goober Rock"},
-	{youtube: "h4XzaEs", name: "Shrek 2 - I need some sleep"},
-	{youtube: "7zkX6kfnWbk", name: "Arthur theme ting"},
-	{youtube: "CQclh6JKIMU", name: "ULKRAH THEME"},
-		
+	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
+	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
+	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
+	{youtube: "-7VeTkLKdDw", name: "Departure"}
 ];
 
 /*Random music order?*/
@@ -104,16 +96,16 @@ var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 12;
+var l_musicVolume = 25;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"would clap joana's cheeks anyday ngl",
-"FREE JOE EXOTIC",
-"Heroes and League are shit",
+"Enjoy the server",
+"Thanks for joining us!",
+"Did you know these backgrounds and songs are from Touhou?"
 ];
 
 /*Random message order?*/
@@ -121,7 +113,7 @@ var l_messagesRandom = true;
 
 /*Delay between message changes
 in milliseconds*/
-var l_messagesDelay = 50000;
+var l_messagesDelay = 5000;
 
 /*Messages fade time
 in milliseconds*/
